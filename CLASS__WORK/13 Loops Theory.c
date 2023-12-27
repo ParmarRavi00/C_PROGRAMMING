@@ -2,11 +2,12 @@
 
 :- it is a specific task which repeats again and again is called a loop
 
-   -in c programming,we have 3 types of loop.
-    
-    (1)while loop
-    (2)do.while loop
-    (3)for loop
+
+	2-Types of Loops
+	
+	1) Entry Control Loop :- for(), while()
+	2) Exit Control Loop :- do while()
+
 
    - 3 important facts in loop.
 
@@ -14,7 +15,33 @@
     (2)condition
     (3)updation
 
-------------------(1) while loop--------------
+------------------(1) for loop----------------
+
+  - there is all in one line 
+
+  syntax  :-
+
+      for (initialization;condition;updation)
+
+        {
+
+               statement;
+
+        }
+        
+        
+    void main()
+	{
+		int i;
+		
+		for(i=1;i<=10;i++)
+		{
+			printf("%d\n",i);		
+		}
+	}
+	
+	
+------------------(2) while loop--------------
 
    -it is called an entry controlled loop.
 
@@ -34,8 +61,17 @@ then the body is executed.
              statement;
              updation;
           }
+          
+          
+    int i=0;
+	
+	while(i<3){
+		printf("Hello World \n");
+		i++;
+	}	
 
-------------------(2)do whille loop-----------
+
+------------------(3)do whille loop-----------
 
      -it is called as exit controlled loop.
      -beacause the condition is checked at last
@@ -56,25 +92,11 @@ syntax :-
 
             }
              while(condition);
-
-------------------(3) for loop----------------
-
-  - there is all in one line 
-
-  syntax  :-
-
-      for (initialization;condition;updation)
-
-        {
-
-               statement;
-
-        }
-
-
-          
-
-
-         
-
- 
+             
+    
+    int i=0;
+	
+	do{
+		printf("Hello World \n");
+		i++;
+	}while(i<3);
