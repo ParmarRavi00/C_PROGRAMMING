@@ -17,6 +17,6 @@ void main()
 	printf("\n \n \t \t Please Enter Number-3 :- ");
 	scanf("%d",&Number3);
 	
-	(Number1 > Number2) ? (Number1 > Number3) ? printf("\n \n \t \t %d ") : printf("\n \n \t \t This Number is Even."); : printf("\n \n \t \t This Number is Even.");
+	(Number1 > Number2) ? (Number1 > Number3) ? printf("\n \n \t \t %d is Maximum Number",Number1) : printf("\n \n \t \t %d is Maximum Number",Number3) : (Number2 > Number3) ? printf("\n \n \t \t %d is Maximum Number",Number2) : printf("\n \n \t \t %d is Maximum Number",Number3);
 	
 }
