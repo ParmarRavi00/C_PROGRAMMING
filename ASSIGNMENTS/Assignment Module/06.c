@@ -1,4 +1,4 @@
-// 6)   Find the Character Is Vowel or Not
+// 6)   Find the Character Is Vowel or Not using If_else Statement
 
 #include<stdio.h>
 
@@ -12,19 +12,48 @@ void main()
 	
 	scanf("%c",&text);
 	
-	switch(text)
+	if(text == 'A')
 	{
-		case 'A' : 
-		case 'a' :
-		case 'E' :
-		case 'e' :
-		case 'I' :
-		case 'i' :
-		case 'O' :
-		case 'o' : printf("\n \t This Character is Vowel.");
-		
-		break;
-		
-		default : printf("\n \t This Character is Not-Vowel.");
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'a')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'E')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'e')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'I')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'i')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'O')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'o')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'U')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else if(text == 'u')
+	{
+		printf("\n \t This Character is Vowel.");
+	}
+	else
+	{
+		printf("\n \t This Character is Not-Vowel.");
 	}
 }
