@@ -11,33 +11,39 @@ int main()
 
     // Input unit consumed from user
     
-    printf("\n\n\t\t Enter total units consumed :- ");
+    printf("\n\n\t\t Enter total units consumed:- ");
     scanf("%d", &unit);
 
 
     // Calculate electricity bill according to given conditions
     
-    if (unit <= 50)
+    if (unit <= 350)
 	{
-        unitcharge = unit * 0.5;
+        unitcharge = unit * 1.20;
     }
-	else if
-	  (unit <= 150) {
-        unitcharge = 50 * 0.5 + (unit - 50) * 0.75;
+	else if(unit <= 600)
+	{
+        unitcharge = 350 * 1.20 + (unit - 350) * 1.50;
     }
-	else if (unit <= 250) {
-        unitcharge = 50 * 0.5 + 100 * 0.75 + (unit - 150) * 1.2;
+	else if(unit <= 800)
+	{
+        unitcharge = 350 * 1.20 + 250 * 1.50 + (unit - 600) * 1.80;
     }
 	else
 	{
-        unitcharge = 50 * 0.5 + 100 * 0.75 + 100 * 1.2 + (unit - 250) * 1.5;
+        unitcharge = 350 * 1.20 + 250 * 1.50 + 200 * 1.80 + (unit - 800) * 2.00;
     }
 
     // Calculate total electricity bill after adding surcharge
      
-    sur_charge = unitcharge * 0.20;
-    
-    total_Bill  = unitcharge + sur_charge;
+    if(unitcharge <= 800)
+    {
+    	total_Bill = unitcharge + 256;
+	}
+	else
+	{
+		total_Bill = unitcharge + (unitcharge * 0.18);
+	}
 
     printf("\n\t\t Electricity Bill = Rs. %.2f", total_Bill);
 

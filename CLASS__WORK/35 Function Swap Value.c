@@ -11,9 +11,11 @@ void main()
 
 void swap()
 {
+	
+	printf("Swapping Values");
 	int a = 15, b = 20;
 	
-	printf("Value of A is:- %d",a);
+	printf("\n\nValue of A is:- %d",a);
 	printf("\nValue of B is:- %d",b);
 	
 	int c = a+b;
