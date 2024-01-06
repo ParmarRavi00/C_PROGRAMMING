@@ -16,6 +16,7 @@ void main()
 		scanf("%d", &arr1[i]);
 	}
 	
+	
 	printf("\n\t\t Please Enter 5 Values of Array-2 :- ");
 	
 	for(i=0; i<5; i++)
@@ -27,6 +28,7 @@ void main()
 	{
 		sum[i] = arr1[i] + arr2[i];
 	}
+	
 	
 	printf("\n\t\t Addition of Array-1 And Array-2 :- ");
 	

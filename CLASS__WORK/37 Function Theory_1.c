@@ -39,11 +39,22 @@ ex- void f1(int a)
 
 Category 3 :
 
+A function with return-type and with no Parameter.
+
+e.g int f1()
+	{
+		//code
+		return;
+	}
+	
+Category 4 :
+
 A function with return-type and with Parameter.
 
 e.g int f1(int a,int b)
 	{
 		//code
+		return;
 	}
 
 3 facts about the function.

@@ -1,5 +1,3 @@
-// Print 1 to 10 number
-
 #include<stdio.h>
 
 /*
