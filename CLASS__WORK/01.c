@@ -3,7 +3,7 @@
 (2)softwere=a set of programe is called as 
             softwere
 
-------there are two types of softwere----
+------there are two types of softwere------
 
   (1)system softwere:
 
