@@ -3,6 +3,7 @@
 #include<stdio.h>
 
 int sum(int n);
+
 int main()
 {
 	printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2 Sum of n Number Using Function Recursion \xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
@@ -45,3 +46,30 @@ n=1   ==> 1 Number no Sum 1 thay mate  (Je pahele thi khaber hoy chhe mate n==1 
  (BASE CASE) ==> Function Recursion Stop Thase
 
  */
+ 
+ 
+// -----------------------------
+ 
+int add(int number);
+
+int main()
+{
+	int number;
+	
+	printf("Please Enter Number :-");
+	scanf("%d",&number);
+	
+	printf("%d",add(number));
+}
+ 
+ int add(int n)
+{
+	if(n!=0)
+	{
+		return n + add(n-1);
+	}
+	else
+	{
+		return 0;
+	}
+}
