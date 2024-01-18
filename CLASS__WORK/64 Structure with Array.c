@@ -1,4 +1,4 @@
-// Structure
+// Array of Structures
 
 #include<stdio.h>
 
@@ -12,19 +12,20 @@ struct student
 
 int main()
 {
-	struct student s[5];
+	struct student std[100];
 	int i, j;
 	
 	
 //	for(i=0; i<5; i++)
 //	{
 //		printf("Enter id for %d student:- ", i+1);
-//		scanf("%d", &s[i].id);
+//		scanf("%d", &std[i].id);
 //	}
-//	
+	
 //	printf("Enter Name :-");
-//	scanf("%s", &s[0].name)
-//	printf("%s is name", s[0].name);
+//	scanf("%s", &std[0].name)
+
+//	printf("%s is name", std[0].name);
 	
 	
 	
@@ -32,11 +33,22 @@ int main()
 	{
 		for(j=0; j<3; j++)
 		{
-			printf("Enter %d st Subjects marks for %d student  :-", i+1, j+1);
-			scanf("%d", &s[i].mark[j]);
+			printf("Enter %d st Subjects marks for %d student  :- ", i+1, j+1);
+			scanf("%d", &std[i].mark[j]);
 //			print : student 1 : subject 1 = 99 subject 2 = 90 subject 3 = 85
-
-			printf("");
 		}
+	}
+	
+	printf("\n\n");
+	
+	for(i=0; i<2; i++)
+	{
+		printf("Student %d :", i+1);
+		
+		for(j=0; j<3; j++)
+		{
+			printf(" Subject %d = %d ", j+1, std[i].mark[j]);
+		}
+		printf("\n");
 	}
 }
