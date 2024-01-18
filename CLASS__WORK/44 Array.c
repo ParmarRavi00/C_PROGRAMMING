@@ -1,4 +1,4 @@
-// Array
+// Array :- Collection of similar data types stored at contiguous memory location.
 
 #include<stdio.h>
 

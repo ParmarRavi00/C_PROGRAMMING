@@ -1,4 +1,4 @@
-// Pointer to pointer
+// Pointer to pointer :- A variable that stores the memory address of another pointer.
 
 #include<stdio.h>
 
