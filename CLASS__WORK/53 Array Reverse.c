@@ -28,7 +28,7 @@ void main()
 
 int reverse(int arr[], int n)
 {
-	for(int i=0; i<n/2;i++)
+	for(int i=0; i<n/2; i++)
 	{
 		int firstValue, secondValue;
 		
