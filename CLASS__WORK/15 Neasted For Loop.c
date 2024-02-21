@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 
 
@@ -15,21 +16,21 @@
 	
 */
 
-void main()
-{
-	
-	int i,j;
-	
-	for(i=0;i<=10;i++)
-	{
-		for(j=0;j<=i;j++)
-		{
-			printf("*");
-		}
-		printf("\n");
-	}
-		
-}
+//void main()
+//{
+//	
+//	int i,j;
+//	
+//	for(i=0;i<=10;i++)
+//	{
+//		for(j=0;j<=i;j++)
+//		{
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//		
+//}
 
 
 int main()
@@ -39,7 +40,7 @@ int main()
 	
 	for(i=1;i<=10;i++)
 	{
-		for(k=0;k<=10-i;k++)
+		for(k=1;k<=10-i;k++)
 		{
 			printf(" ");
 		}

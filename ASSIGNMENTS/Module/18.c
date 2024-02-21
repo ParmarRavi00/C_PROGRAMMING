@@ -1,4 +1,4 @@
-  /* 18.Writeaprogram ofto find outthe Area of Triangle,Rectangleand
+  /* 18.Write a program of to find outthe Area of Triangle,Rectangleand
    Circle using If Condition.(Must Be Menu Driven)*/
 
 #include<stdio.h>

@@ -6,7 +6,7 @@ void main()
 {
 	int num,rem,rev=0;
 	
-	printf("\n \t\xb2\xb2\xb2\xb2\xb2\xb2 Palindrome Number \xb2\xb2\xb2\xb2\xb2\xb2");
+	printf("\n \t\xb2\xb2\xb2\xb2\xb2\xb2 Create Reverse Number \xb2\xb2\xb2\xb2\xb2\xb2");
 	
 	printf("\n\n \t Please Enter Number :- ");
 	

@@ -23,12 +23,16 @@ void main()
 		 {
 		 	case 1:printf("\n\t\t\tAddition is :- %d",a+b);
 		 	break;
+		 	
 		 	case 2:printf("\n\t\t\tSubtraction is :- %d",a-b);
 		 	break;
+		 	
 		 	case 3:printf("\n\t\t\tMultiplication is :- %d",a*b);
 		 	break;
+		 	
 		 	case 4:printf("\n\t\t\tDivision is :- %d",a/b);
 		 	break;
+		 	
 		 	default :printf("\n\t\t\t! Invalid input...!");
 		 	break;
 		 }
