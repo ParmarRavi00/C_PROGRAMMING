@@ -1,4 +1,4 @@
-// Multidimensional Array :- Array ne Matrix tytpe print karava mate 
+// Multidimensional Array :- Array ne Matrix type print karava mate 
 
 #include<stdio.h>
 

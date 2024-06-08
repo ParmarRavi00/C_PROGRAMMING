@@ -6,7 +6,7 @@ void main()
 {
 	int n;
 	
-	printf("PLease Last Digit of Fibonacci Series :- ");
+	printf("PLease Enter Total Number of Fibonacci Series :- ");
 	scanf("%d", &n);
 	
 	int arr[n];

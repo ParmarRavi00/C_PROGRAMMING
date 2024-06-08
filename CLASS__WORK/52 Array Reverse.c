@@ -8,7 +8,7 @@ int printarr(int arr[], int n);
 
 void main()
 {
-	printf("Array Reverse");
+	printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2 Array Reverse \xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
 	
 	int arr[] = {1, 3, 5, 7, 9};
 	
